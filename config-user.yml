@@ -57,6 +57,8 @@ spring:
           use_second_level_cache: true
     hibernate:
       ddl-auto: update
+      naming:
+          physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
   redis:
     host: 192.168.50.100
     port: 6379
