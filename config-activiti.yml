@@ -51,8 +51,6 @@ spring:
       hibernate:
         format_sql: true
         show_sql: true
-        ejb:
-          interceptor: com.xuecheng.userservice.component.QueryResInterceptor
         cache:
           use_second_level_cache: true
     hibernate:
