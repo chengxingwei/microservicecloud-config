@@ -81,5 +81,5 @@ security:
   oauth2:
     resource:
       id: resource
-      user-info-uri: http://192.168.50.115:9527/uaa/user
-      prefer-token-info: false
+      user-info-uri: http://security/user
+      loadBalanced: true
