@@ -77,9 +77,3 @@ eureka:
   instance: #实例别名
     instance-id: servuce-cloued8001XX
     prefer-ip-address: true
-security:
-  oauth2:
-    resource:
-      id: resource
-      user-info-uri: http://security/user
-      loadBalanced: true
