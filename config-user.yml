@@ -82,7 +82,7 @@ security:
     enabled: false
   oauth2:
     resource:
-      user-info-uri:  http://security/users/current
+      user-info-uri:  http://localhost:9527/security/users/current
       prefer-token-info: false
 # security:
   # oauth2:
