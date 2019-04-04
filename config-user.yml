@@ -80,5 +80,6 @@ eureka:
 security:
   oauth2:
     resource:
+      filter-order: 1
       user-info-uri:  http://192.168.50.115:9527/security/users/current
       prefer-token-info: false
