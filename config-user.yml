@@ -78,8 +78,6 @@ eureka:
     instance-id: servuce-cloued8001XX
     prefer-ip-address: true
 security:
-  basic:
-    enabled: false
   oauth2:
     resource:
       user-info-uri:  http://192.168.50.115:9527/security/users/current
